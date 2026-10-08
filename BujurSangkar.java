@@ -18,6 +18,7 @@ public class BujurSangkar extends Bentuk {
         return sisi * sisi;
     }
 
+    @Override
     public void printInfo() {
         System.out.println(
             "BujurSangkar berwarna " + warna +

@@ -18,6 +18,7 @@ public class Silinder extends Lingkaran {
         return hitungLuas() * tinggi;
     }
 
+    @Override
     public void printInfo() {
         System.out.println(
             "Silinder berwarna " + warna +
